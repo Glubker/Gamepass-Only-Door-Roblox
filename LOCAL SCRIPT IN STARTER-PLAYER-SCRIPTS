@@ -1,0 +1,6 @@
+local player = game.Players.LocalPlayer
+local gamepassId = -- Your gamepass ID
+
+if game:GetService("MarketPlayerService"):UserOwnsGamepassAsync(Player.UserId, gamepassId) then
+
+end
