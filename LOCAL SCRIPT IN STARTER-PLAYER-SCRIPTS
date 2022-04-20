@@ -2,5 +2,6 @@ local player = game.Players.LocalPlayer
 local gamepassId = -- Your gamepass ID
 
 if game:GetService("MarketPlayerService"):UserOwnsGamepassAsync(Player.UserId, gamepassId) then
-
+  game.Workspace.GamepassDoor.CanCollide = false
+  game.Workspace.GamepassDoor.Transparency = 0.5
 end
